@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 import webclass from '../Images/webclass.jpg';
 import banner2 from '../Images/banner-v2.jpg';

@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-
+ 
                 <div id="footer">
                     <div className="container">
                         <div className="row">
@@ -20,34 +20,34 @@ class Footer extends Component {
                                 <p class="title-footer-bg text-white jarak-text-3">PAKET KURSUS</p>
                                 <ul>
                                 <li class="text-white">
-                                    <a href="#" className="font-li li-style-1">KURSUS WEB DESIGN</a>
+                                    KURSUS WEB DESIGN
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">KURSUS WEBSITE</a>
+                                    KURSUS WEBSITE
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">KURSUS PEMRUGRAMAN PHP</a>
+                                    KURSUS PEMRUGRAMAN PHP
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">KURSUS INTERNET MARKETING</a>
+                                    KURSUS INTERNET MARKETING
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">KURSUS SEO</a>
+                                    KURSUS SEO
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">KURSUS DESAIN GRAFIS</a>
+                                    KURSUS DESAIN GRAFIS
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">KURSUS KOMPUTER</a>
+                                    KURSUS KOMPUTER
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">KURSUS AFTER EFFECT</a>
+                                    KURSUS AFTER EFFECT
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">WEB PROGRAMING</a>
+                                    WEB PROGRAMING
                                 </li>
                                 <li class="jarak-li text-white">
-                                    <a href="#" className="font-li li-style-1">MOBILE APP PROGRAMING ANDROID & IOS</a>
+                                    MOBILE APP PROGRAMING ANDROID & IOS
                                 </li>
                                 </ul>
                             </div>

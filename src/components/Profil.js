@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 import banner2 from '../Images/banner-v2.jpg';
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+// import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 import bekasi from '../Images/bekasi.jpg';
 import jakarta from '../Images/jakarta.jpg';
@@ -125,22 +125,22 @@ class Profil extends Component {
                         </div>
                         <div className="row jarak-text-3">
                             <div className="col-md-3">
-                                <img src={jakarta} className="shadow-img img-fluid"/>
+                                <img src={jakarta} className="shadow-img img-fluid" alt="product"/>
                                 <h5 className="text-center jarak-text-9">Kampus Jakarta</h5>
                             </div>
 
                             <div className="col-md-3">
-                                <img src={tangerang} className="shadow-img img-fluid"/>
+                                <img src={tangerang} className="shadow-img img-fluid" alt="product"/>
                                 <h5 className="text-center jarak-text-9">Kampus Tangerang</h5>
                             </div>
 
                             <div className="col-md-3">
-                                <img src={bekasi} className="shadow-img img-fluid"/>
+                                <img src={bekasi} className="shadow-img img-fluid" alt="product"/>
                                 <h5 className="text-center jarak-text-9">Kampus Bekasi</h5>
                             </div>
 
                             <div className="col-md-3">
-                                <img src={cempaka} className="shadow-img img-fluid"/>
+                                <img src={cempaka} className="shadow-img img-fluid" alt="product"/>
                                 <h5 className="text-center jarak-text-9">Kampus Cempaka Mas</h5>
                             </div>
                         </div>

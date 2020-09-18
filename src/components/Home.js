@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 import ReactPlayer from "react-player"
 import OwlCarousel from 'react-owl-carousel';
@@ -19,14 +19,14 @@ import gc5 from '../Images/gc-5.png';
 import gc6 from '../Images/gc-6.png';
 import gc7 from '../Images/gc-7.png';
 import gc8 from '../Images/gc-8.png';
-import gc9 from '../Images/gc-9.png';
+// import gc9 from '../Images/gc-9.png';
 import gl1 from '../Images/gl-1.png';
 import gl2 from '../Images/gl-2.png';
 import gl3 from '../Images/gl-3.png';
 import gl4 from '../Images/gl-4.png';
 import gl5 from '../Images/gl-5.png';
 import banner1 from '../Images/banner-v1.jpg';
-import techbg from '../Images/tech-bg-1.jpg';
+// import techbg from '../Images/tech-bg-1.jpg';
 
 class Home extends Component {
     render() {
@@ -72,12 +72,12 @@ class Home extends Component {
                         autoplayHoverPause
                         margin={-200}
                     >
-                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl1}/></div>
-                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl2}/></div>
-                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl3}/></div>
-                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl4}/></div>
-                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl5}/></div>
-                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl4}/></div>
+                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl1} alt="product"/></div>
+                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl2} alt="product"/></div>
+                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl3} alt="product"/></div>
+                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl4} alt="product"/></div>
+                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl5} alt="product"/></div>
+                        <div className="owl-style-1 img-fluid"><img className="img-owl" src={gl4} alt="product"/></div>
                     </OwlCarousel>
                 </div>
 
@@ -106,7 +106,7 @@ class Home extends Component {
                                     </p>
                                 </div>
                                 <div className="col-md-6">
-                                    <img className="img-fluid img-home" src={gc1}/>
+                                    <img className="img-fluid img-home" src={gc1} alt="product"/>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ class Home extends Component {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <img className="img-fluid img-home" src={gc2}/>
+                                    <img className="img-fluid img-home" src={gc2} alt="product"/>
                                 </div>
                                 <div className="col-md-6">
                                     <h2>Lebih Dari 15 ribu Alumni ...</h2>
@@ -146,7 +146,7 @@ class Home extends Component {
                                     </p>
                                 </div>
                                 <div className="col-md-6">
-                                    <img className="img-fluid img-home" src={gc3}/>
+                                    <img className="img-fluid img-home" src={gc3} alt="product"/>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ class Home extends Component {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <img className="img-fluid img-home" src={gc4}/>
+                                    <img className="img-fluid img-home" src={gc4} alt="product"/>
                                 </div>
                                 <div className="col-md-6">
                                     <h2>Jadwal Belajar Flexibel ...</h2>
@@ -187,7 +187,7 @@ class Home extends Component {
                                     </p>
                                 </div>
                                 <div className="col-md-6">
-                                    <img className="img-fluid img-home" src={gc5}/>
+                                    <img className="img-fluid img-home" src={gc5} alt="product"/>
                                 </div>
                             </div>
                         </div>
@@ -197,7 +197,7 @@ class Home extends Component {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <img className="img-fluid img-home" src={gc6}/>
+                                    <img className="img-fluid img-home" src={gc6} alt="product"/>
                                 </div>
                                 <div className="col-md-6">
                                     <h2>Materi bisa diakses dari rumah ...</h2>
@@ -225,7 +225,7 @@ class Home extends Component {
                                     </p>
                                 </div>
                                 <div className="col-md-6">
-                                    <img className="img-fluid img-home" src={gc7}/>
+                                    <img className="img-fluid img-home" src={gc7} alt="product"/>
                                 </div>
                             </div>
                         </div>
@@ -235,7 +235,7 @@ class Home extends Component {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <img className="img-fluid img-home" src={gc8}/>
+                                    <img className="img-fluid img-home" src={gc8} alt="product"/>
                                 </div>
                                 <div className="col-md-6">
                                     <h2>Belajar Langsung dari Founder, CEO, dan Owner perusahaan ternama.</h2>
@@ -410,22 +410,22 @@ class Home extends Component {
                         </div>
                         <div className="row jarak-text-3">
                             <div className="col-md-3">
-                                <img src={jakarta} className="shadow-img img-fluid"/>
+                                <img src={jakarta} className="shadow-img img-fluid" alt="product"/>
                                 <h5 className="text-center jarak-text-9">Kampus Jakarta</h5>
                             </div>
 
                             <div className="col-md-3">
-                                <img src={tangerang} className="shadow-img img-fluid"/>
+                                <img src={tangerang} className="shadow-img img-fluid" alt="product"/>
                                 <h5 className="text-center jarak-text-9">Kampus Tangerang</h5>
                             </div>
 
                             <div className="col-md-3">
-                                <img src={bekasi} className="shadow-img img-fluid"/>
+                                <img src={bekasi} className="shadow-img img-fluid" alt="product"/>
                                 <h5 className="text-center jarak-text-9">Kampus Bekasi</h5>
                             </div>
 
                             <div className="col-md-3">
-                                <img src={cempaka} className="shadow-img img-fluid"/>
+                                <img src={cempaka} className="shadow-img img-fluid" alt="product"/>
                                 <h5 className="text-center jarak-text-9">Kampus Cempaka Mas</h5>
                             </div>
                         </div>
