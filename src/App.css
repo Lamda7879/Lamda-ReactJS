@@ -1,38 +1,318 @@
-.App {
-  text-align: center;
+/* DEFAULT STYLE------------------------------------------------------------------------------------------------------> */
+:root{
+  --mainBlue: #031826;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #3d3d3d;
+  --mainYellow: #ffa400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+/* DEFAULT STYLE------------------------------------------------------------------------------------------------------> */
+
+/*BAGIAN TEXT STYLE---------------------------------------------------------------------------------------------------> */
+.text-style-1{
+  font-weight: bold;
+  color: var(--mainDark);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-style-2{
+  font-weight: 600;
+  color: var(--mainDark);
+}
+/*BAGIAN TEXT STYLE---------------------------------------------------------------------------------------------------> */
+
+/*BAGIAN JARAK TEXT---------------------------------------------------------------------------------------------------> */
+.jarak-text-1{
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.jarak-text-2{
+  margin-top: 10px !important;
+}
+.jarak-text-7{
+  margin-top: 50px;
+}
+
+.jarak-text-9{
+  margin-top: 20px;
+}
+
+.jarak-text-8{
+  margin-top: 70px;
+}
+
+.jarak-text-3{
+  margin-top: 40px;
+}
+
+.jarak-text-11{
+  margin-top: 300px;
+}
+
+.jarak-text-4{
+  margin-top: -40px;
+}
+
+.jarak-text-5{
+  margin-bottom: 20px;
+}
+
+.jarak-text-6{
+  margin-bottom: 20px;
+}
+
+.jarak-text-10{
+  margin-bottom: 700px;
+}
+/*BAGIAN JARAK TEXT---------------------------------------------------------------------------------------------------> */
+
+/*MARGIN STYLE---------------------------------------------------------------------------------------------------> */
+.margin-1{
+  margin-left: 10px;
+}
+/*MARGIN STYLE---------------------------------------------------------------------------------------------------> */
+
+/* P STYLE------------------------------------------------------------------------------------------------------------> */
+.p-style-1{
+  font-size: 12px;
+}
+
+.p-style-2{
+  line-height: 25px;
+}
+/* P STYLE------------------------------------------------------------------------------------------------------------> */
+
+/* LI STYLE-----------------------------------------------------------------------------------------------------------> */
+.li-style-1{
   color: white;
+  font-size: 13px;
+}
+/* LI STYLE-----------------------------------------------------------------------------------------------------------> */
+
+/* SPAN STYLE-------------------------------------------------------------------------------------------------------------> */
+.span-style-1{
+  color: var(--lightBlue);
+}
+/* SPAN STYLE-------------------------------------------------------------------------------------------------------------> */
+
+/* H STYLE-------------------------------------------------------------------------------------------------------------> */
+.h-style-1{
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.h-style-2{
+  margin-top: 50px !important;
+}
+/* H STYLE-------------------------------------------------------------------------------------------------------------> */
+
+/* BUTTON STYLE--------------------------------------------------------------------------------------------------------> */
+.btn-style-1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-radius: 10px;
+  background-color: var(--mainYellow);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-style-2{
+  float: right;
+  margin-top: 20px;
+}
+
+.btn-style-3{
+  margin-top: 20px;
+}
+/* BUTTON STYLE--------------------------------------------------------------------------------------------------------> */
+
+/* BORDER STYLE--------------------------------------------------------------------------------------------------------> */
+.border-style-1{
+  border: 2px solid #8d8d8d !important;
+}
+/* BORDER STYLE--------------------------------------------------------------------------------------------------------> */
+
+.img-owl{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  height: 100px;
+  width: 200px !important;
+  border-radius: 5px;
+  border: 2px solid #8d8d8d;
+}
+
+.text-title{
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.nav-style{
+  background-color: var(--mainBlue);
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+  -webkit-box-shadow: 0px 2px 10px 0px #000000; 
+box-shadow: 0px 4px 10px 0px #000000;
+}
+
+.nav-style ul li{
+  text-decoration: none;
+}
+
+.ul-style{
+  margin-left: 400px;
+}
+
+.img-home{
+  height: 350px !important;
+  width: 100%;
+}
+
+.bg-1{
+  background-image: url(./Images/tech-bg-1.jpg);
+  background-size: cover;
+}
+
+.card-header{
+  background-color: rgb(184, 184, 184) !important;
+}
+
+.mac-dots1{
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.mac-dots2{
+  background-color: yellow;
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.mac-dots3{
+  background-color: green;
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+}
+
+.vid-style{
+  height: 250px !important;
+  width: 400px !important;
+}
+
+.card-body{
+  background-color: rgb(228, 228, 228);
+}
+
+.card-style-1{
+  background-color: #e6e6e6 !important;
+}
+
+.shadow-img:hover{
+  -webkit-box-shadow: 0px 0px 37px 1px rgba(0,0,0,0.42); 
+  box-shadow: 0px 0px 37px 1px rgba(0,0,0,0.42);
+}
+
+.map-size{
+  width: 200px;
+  height: 200px;
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+#footer{
+  margin-top: -30px;
+  background-color: #031826;
+  padding-bottom: 50px;
+}
+
+.title-footer-bg{
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #07436d;
+  border-left: 4px solid #1075bd;
+}
+
+.title-footer-bg{
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #07436d;
+  border-left: 4px solid #1075bd;
+}
+
+.desc-footer-bg{
+  padding: 10px;
+  font-size: 13px;
+  background-color: #074e81;
+  border-left: 4px solid #1075bd;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.form-btn{
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.form-btn:hover{
+  cursor: pointer !important;
+  padding-top: 9px !important;
+  padding-bottom: 9px !important;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+}
+
+.bar{
+  background-color: #7fc3ee;
+  border-left: 5px solid #038bda;
 }
